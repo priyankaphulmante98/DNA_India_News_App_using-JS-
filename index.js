@@ -26,13 +26,16 @@ let slideshow = () =>{
         {
             i = 0
         }
-        latest_news.innerText = navbar_slide_show[i]
+        latest_news.innerText = navbar_slide_show[i];
         i++
     },2000)
 }
 slideshow()
 
+
 let append = ()=>{
+
+
     let data = document.getElementById("display_kro")
     
     let img = document.createElement("img")
